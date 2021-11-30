@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(29, 29, 29);
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0 5px 10px rgba(100, 80, 80, 0.1);
+}
+
+
+.container{
+    width: 700px;
+    min-height: 200px;
+    margin: 0 auto;
+    box-shadow: 0 0px 15px rgba(100, 80, 80, 0.2);
+}
+
+.box{
+    display: flex;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.heading{
+    margin-left: 50px;
+}
+
+.andress {
+    border-bottom: 1px solid #ddd;
+    padding:10px 0 ;
+}
+
+.name{
+    margin-bottom: 10px;
+}
+
+.name span{
+    color: rgb(192, 192, 192);
+    font-size: 20px;
+}
+
+.mail p {
+    font-size: 20px;
+}
+
+.mail span{
+    color: rgb(192, 192, 192);
+    font-size: 16px;
+
+}
+.subheading{
+    margin-top: 30px;
+}
+
+.subheading p{
+    margin: 15px 0;
+}
+
+.social{
+    background-color: rgb(108, 125, 184);
+    text-align: center;
+    height: 35px;   
+    line-height: 35px;
+}
+
+.social i{
+    font-size: 20px;
+    color: #fff;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.social i:hover{
+    color : rgb(0, 151, 252)
+}
+
+
